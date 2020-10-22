@@ -40,5 +40,7 @@ When the member has paid a required minimum membership amount, their details wil
 
 <a href="https://github.com/simorgan/Frome-RFC-Portal2">Link to the repository of the master build</a>
 
+<p>Note: the CSS file is a generic file i have used just to get the app presentable/p>
+
 
 
