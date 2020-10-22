@@ -19,12 +19,12 @@ function mailMember($memberEmail,$memberName,$memberID)
       $mail->Host = 'fromerfc.org';
       $mail->Port = '587';
       $mail->isHTML();
-      $mail->Username = 'membership@fromerfc.org';
-      $mail->Password = ')%Car2010';
-      $mail->SetFrom('membership@fromerfc.org');
-      $mail->addReplyTo('membership@fromerfc.org');
-      $mail->addBCC('membership@fromerfc.org');
-      $mail->addBCC('cameron.hastie@yahoo.co.uk');
+      $mail->Username = '';
+      $mail->Password = '';
+      $mail->SetFrom('');
+      $mail->addReplyTo('');
+      $mail->addBCC('');
+      $mail->addBCC('');
       $mail->Subject = 'Stash Collection Confirmation';
       $mail->AddEmbeddedImage('fromeLogo.png','testImage');
       $mail->Body = '<img style="display: block;
@@ -35,7 +35,7 @@ function mailMember($memberEmail,$memberName,$memberID)
                     </h1>'.
                     '<h5>'.'Dear'. ' '. $memberName.'</h5>'.'<h5>'.'ID:'.' '
                     .$memberID .'</h5>'.'<p>'.'Thank You for collecting your membership stash. 
-                    If you have any issues please contact Cameron Hastie at cameron.hastie@yahoo.co.uk ASAP.'.'</p>'.
+                    If you have any issues please contact Cameron Hastie at  ASAP.'.'</p>'.
                     '<p>'.'Regards, <br> Frome RFC <br> <a href="http://www.fromerfc.org" target="_blank">www.fromerfc.org</a>'.'</p>';
 
       $mail->AddAddress($memberEmail);
@@ -53,11 +53,11 @@ function mailVoucher($memberEmail,$memberName,$memberID,$memberTopSize,$memberSh
       $mail->Host = 'fromerfc.org';
       $mail->Port = '587';
       $mail->isHTML();
-      $mail->Username = 'membership@fromerfc.org';
-      $mail->Password = ')%Car2010';
-      $mail->SetFrom('membership@fromerfc.org');
-      $mail->addReplyTo('membership@fromerfc.org');
-      $mail->addBCC('membership@fromerfc.org');
+      $mail->Username = '';
+      $mail->Password = '';
+      $mail->SetFrom('');
+      $mail->addReplyTo('');
+      $mail->addBCC('');
       $mail->Subject = 'Stash Collection Voucher';
       $mail->AddEmbeddedImage('fromeLogo.png','testImage');
       $mail->Body = '<img style="display: block;
@@ -67,7 +67,7 @@ function mailVoucher($memberEmail,$memberName,$memberID,$memberTopSize,$memberSh
                     width="150" height="150">'.'<h1 style="text-align: center;">Frome RFC Membership Stash Voucher
                     </h1>'.
                     '<h5>'.'Dear'. ' '. $memberName.'</h5>'.'<h5>'.'<p>'.'This email confirms your stash has been reserved for you. Please produced this email upon collection..'.'</p>'.'<h5>'.'ID:'.' '
-                    .$memberID .'</h5>'.'<h5>'.'Top Size: '. $memberTopSize.'</h5>'.'<h5>'.'Short Size: '.$memberShortSize.'</h5>'.'<p>'.'If you have any issues please contact Cameron Hastie at cameron.hastie@yahoo.co.uk ASAP.'.'</p>'.
+                    .$memberID .'</h5>'.'<h5>'.'Top Size: '. $memberTopSize.'</h5>'.'<h5>'.'Short Size: '.$memberShortSize.'</h5>'.'<p>'.'If you have any issues please contact Cameron Hastie at  ASAP.'.'</p>'.
                     '<p>'.'Regards, <br> Frome RFC <br> <a href="http://www.fromerfc.org" target="_blank">www.fromerfc.org</a>'.'</p>';
 
       $mail->AddAddress($memberEmail);
