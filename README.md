@@ -17,7 +17,11 @@ When the member has paid a required minimum membership amount, their details wil
 <li>The person issuing the kit will enter the ID and this will display the members name, ID and kit sizes plus if any of the kit have been issued already </li>
 <li>When the kit is issued, the app user will select the appropriate selections updating the database. </li>
 <li>When the kit has been issued the member and club officials will be automictically emailed from the app to confirm the kit has been issued.</li>
-</u>
+</ul>
+
+<h3>Deployment </h3>
+<p>There is no budget for this project, so for deployment I will run this from my home LAMP server to save on cost. This will be made available to a few officials of Frome RFC with the URL being booked marked on their phone, so this will need to be responsive for mobile displays. </p>
+
 <h3>Testing </3>
 <p> The application has been use in a real world situation and is fulfilling the expectations saving loss of kit to unpaying members.</p>
 
